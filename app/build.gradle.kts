@@ -3,12 +3,14 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("androidx.navigation.safeargs.kotlin")
     id ("kotlin-kapt")
-    //id("com.google.devtools.ksp") version "1.8.10-1.0.9" apply false
 }
 
 android {
     namespace = "com.example.countrylistappkotlin"
     compileSdk = 34
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.countrylistappkotlin"
