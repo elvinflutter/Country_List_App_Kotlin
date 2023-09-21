@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-    val navVersion = "2.7.2"
+    val navVersion = "2.7.3"
     val lifecycleVersion = "2.6.2"
     val roomVersion = "2.5.2"
     val retrofitVersion = "2.3.0"
@@ -59,8 +59,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
 
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
+
 
     implementation("androidx.room:room-runtime:$roomVersion")
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
@@ -83,6 +82,14 @@ dependencies {
     //implementation ("com.androidx.support:palette-v7:$supportVersion")
     //implementation ("com.androidx.support:design:$supportVersion")
     implementation ("androidx.palette:palette-ktx:1.0.0")
+
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    //implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    //implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
+    //implementation ("androidx.fragment:fragment-ktx:1.6.1")
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
 
 
 }
