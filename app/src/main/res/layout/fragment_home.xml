@@ -33,7 +33,7 @@
         android:textSize="22sp"
         />
     <ProgressBar
-        android:id="@+id/countryLoad"
+        android:id="@+id/countryLoading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"

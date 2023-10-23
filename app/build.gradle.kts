@@ -84,10 +84,6 @@ dependencies {
     implementation ("androidx.palette:palette-ktx:1.0.0")
 
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    //implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
-    //implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
-    //implementation ("androidx.fragment:fragment-ktx:1.6.1")
-
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
 
